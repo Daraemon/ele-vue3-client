@@ -1,7 +1,6 @@
 <template>
 <div class="search">
-  <van-nav-bar title="搜索" left-text="返回" left-arrow>
-  </van-nav-bar>
+  <van-nav-bar title="搜索" left-text="返回" left-arrow></van-nav-bar>
   <van-search
     v-model="value"
     show-action
@@ -16,7 +15,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref } from 'vue';
 import { NavBar, Search } from 'vant';
 
 export default defineComponent({

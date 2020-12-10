@@ -54,7 +54,6 @@ export default defineComponent({
     },
   },
   setup(props) {
-    console.log('props.shopDetail==',props.shopDetail)
     const { rate } = toRefs(props.shopDetail);
     return {
       rate,
